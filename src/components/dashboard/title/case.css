@@ -1,0 +1,8 @@
+.search {
+  background-image: url(/public/search.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: content-box;
+  background-size: 30px;
+  padding-right: 25px;
+}

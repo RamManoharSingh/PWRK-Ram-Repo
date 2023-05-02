@@ -1,0 +1,62 @@
+.sidebar {
+  flex: 0 0 200px;
+}
+
+.table-active,
+.table-active > td,
+.table-active > th {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.table-hover .table-active:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.table-hover .table-active:hover > td,
+.table-hover .table-active:hover > th {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.sidebar-light .nav-item.active .nav-link {
+  color: #6e707e;
+}
+.sidebar-light .nav-item.active .nav-link i {
+  color: #6e707e;
+}
+
+.sidebar-dark .nav-item .nav-link:active,
+.sidebar-dark .nav-item .nav-link:focus,
+.sidebar-dark .nav-item .nav-link:hover {
+  color: #fff;
+}
+.sidebar-dark .nav-item .nav-link:active i,
+.sidebar-dark .nav-item .nav-link:focus i,
+.sidebar-dark .nav-item .nav-link:hover i {
+  color: #fff;
+}
+
+.sidebar-dark .nav-item.active .nav-link {
+  color: #fff;
+}
+.sidebar-dark .nav-item.active .nav-link i {
+  color: #fff;
+}
+
+.navbar-nav.sidebar .active {
+  background: linear-gradient(
+    270deg,
+    rgba(234, 4, 3, 0.2) 0%,
+    rgba(234, 4, 3, 0.07) 52.9%,
+    rgba(234, 4, 3, 0.02) 97.66%
+  );
+  border-right: 8px solid #ea0403;
+  width: 100%;
+}
+
+.navbar-nav.sidebar li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 10px 30px;
+  opacity: 0.7;
+}

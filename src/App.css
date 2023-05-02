@@ -1,0 +1,422 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/mm.jpg);
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.App {
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+  outline: none;
+  overflow: auto;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+  align-items: center;
+  padding: 25px 0;
+  background-color: #208aec;
+}
+
+.header_logo {
+  height: 55px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.header_text_bold {
+  margin-bottom: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header_text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+}
+
+.heading {
+  font-size: 22px;
+}
+
+.form_wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.form_input {
+  margin-bottom: 20px;
+}
+
+.form_button {
+  width: 39%;
+  margin-left: 273px;
+}
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/forgot.jpg);
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.App {
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+  outline: none;
+  overflow: auto;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+  align-items: center;
+  padding: 25px 0;
+  background-color: #208aec;
+}
+
+.header_logo {
+  height: 55px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.header_text_bold {
+  margin-bottom: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header_text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+}
+
+.heading {
+  font-size: 22px;
+}
+
+.form_wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.form_input {
+  margin-bottom: 20px;
+}
+
+.form_button {
+  width: 39%;
+  margin-left: 273px;
+}
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/Reset.jpg);
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content2 {
+  padding-left: 12%;
+  padding-right: 12%;
+  margin: 20px;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.App {
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+  outline: none;
+  overflow: auto;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+  align-items: center;
+  padding: 25px 0;
+  background-color: #208aec;
+}
+
+.header_logo {
+  height: 55px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.header_text_bold {
+  margin-bottom: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header_text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+}
+
+.heading {
+  font-size: 22px;
+}
+
+.form_wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.form_input {
+  margin-bottom: 20px;
+}
+
+.form_button {
+  width: 39%;
+  margin-left: 273px;
+}
